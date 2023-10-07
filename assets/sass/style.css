@@ -117,7 +117,7 @@ body {
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 img {
@@ -146,7 +146,7 @@ a:hover {
 }
 
 .section-padding {
-  padding: 120px 0px;
+  padding: 60px 0px;
 }
 
 @media (max-width: 575px) {
@@ -5604,6 +5604,7 @@ About Company CSS
 }
 .about__company-right-title h2 {
   margin-bottom: 30px;
+  display: block;
 }
 .about__company-right-title p {
   margin-bottom: 45px;
@@ -9081,7 +9082,7 @@ Solution Two CSS
   height: 90px;
   line-height: 90px;
   text-align: center;
-  background: var(--color-17);
+  background: #D8F8EC;
   border-radius: 50%;
   margin-bottom: 20px;
 }

@@ -620,7 +620,7 @@ Conbix Button And Title Styles CSS
   color: var(--primary-color-2);
 }
 .btn-seven {
-  background: var(--primary-color-3);
+  background: #BD9639;
 }
 .btn-seven::before {
   background: var(--btn-heading-color);

@@ -8519,6 +8519,8 @@ Portfolio Two CSS
   overflow: auto;
   scroll-snap-type: x mandatory;
   gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .portfolio-item {
   height: 570px;
@@ -10936,6 +10938,7 @@ Footer Top CSS
   z-index: 1;
   padding: 60px 0;
   overflow: hidden;
+  margin-bottom: 50px;
 }
 .footer__top-shape {
   position: absolute;

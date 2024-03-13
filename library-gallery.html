@@ -1,430 +1,691 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Start Meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Conbix - Business Consulting HTML5 Template"
+    />
+    <meta
+      name="keywords"
+      content="Creative, Digital, multipage, landing, freelancer template"
+    />
+    <meta name="author" content="ThemeOri" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Title of Site -->
+    <title>Project Body</title>
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="assets/img/nue-1.png" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <!-- Swiper Bundle CSS -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <!-- Magnific Popup CSS -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <!-- Mean Menu CSS -->
+    <link rel="stylesheet" href="assets/css/meanmenu.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/sass/style.css" />
 
-<head>
-	<!-- Start Meta -->
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="description" content="Conbix - Business Consulting HTML5 Template">
-	<meta name="keywords" content="Creative, Digital, multipage, landing, freelancer template">
-	<meta name="author" content="ThemeOri">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Title of Site -->
-	<title>Project Body</title>
-	<!-- Favicons -->
-	<link rel="icon" type="image/png" href="assets/img/nue-1.png">
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<!-- Font Awesome CSS -->
-	<link rel="stylesheet" href="assets/css/all.css">
-	<!-- Animate CSS -->
-	<link rel="stylesheet" href="assets/css/animate.css">
-	<!-- Swiper Bundle CSS -->
-	<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-	<!-- Magnific Popup CSS -->
-	<link rel="stylesheet" href="assets/css/magnific-popup.css">
-	<!-- Mean Menu CSS -->
-	<link rel="stylesheet" href="assets/css/meanmenu.min.css">
-	<!-- Custom CSS -->
-	<link rel="stylesheet" href="assets/sass/style.css"> 
-</head>
+    <!-- Gallery Styles-->
+	<link
+		rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+		/>
+    <style>
+      .gallery-item {
+		display: inline-block;
+        height: 300px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+      }
+      .gallery-item.h-x2 {
+        height: 632px;
+      }
+      .gallery-item .gallery-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center center;
+      }
+    </style>
+  </head>
 
-<body>
-	<!-- Preloader Start -->
-	<div class="theme-loader">
-		<div class="spinner">
-			<div class="spinner-bounce one"></div>
-			<div class="spinner-bounce two"></div>
-			<div class="spinner-bounce three"></div>
-		</div>
-	</div>
-	<!-- Preloader End -->
-	<!-- Dark Light Start -->
-	<div class="switch__tab">
-		<span class="switch__tab-btn active light-mode-title">Light</span>
-		<span class="mode__switch" onclick="darkLight()"><span></span></span>
-		<span class="switch__tab-btn dark-mode-title">Dark</span>
-	</div>
-	<!-- Dark Light End -->
-	<!-- Top Bar Start -->
-	<div class="top__bar">
-		<div class="container custom__container">
-			<div class="row">
-				<div class="col-xl-5 col-md-6">
-					<div class="top__bar-left">
-						<a href="about.html#"><i class="far fa-map-marker-alt"></i>1449 S. Michigan Ave #304, Chicago, IL 60605</a>
-					</div>
-				</div>
-				<div class="col-xl-7 col-md-6">
-					<div class="top__bar-right">
-						<a href="mailto:Info@naturallyurbanenvironmental.com"><i class="fas fa-envelope"></i>Info@naturallyurbanenvironmental.com</a>
-						<div class="top__bar-right-social">
-							<ul>
-								<li><a href="https://web.facebook.com/naturallyurbanenvironmental#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="https://twitter.com/nueinc_green#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="https://www.linkedin.com/company/naturally-urban-environmental-inc-n-u-e-inc/#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                                <li><a href="https://www.instagram.com/nueinc_green/#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Top Bar End -->
-		<!-- Header Area Start -->
-		<div class="header__area header__sticky">
-			<div class="container custom__container">
-				<div class="header__area-menubar">
-					<div class="header__area-menubar-left">
-						<div class="header__area-menubar-left-logo">
-							<a href="index.html"><img class="dark-n" src="assets/img/nue-1.png" alt=""><img class="light-n" src="assets/img/nue-1.png" alt=""></a>
-						</div>
-					</div>
-					<div class="header__area-menubar-center">
-						<div class="header__area-menubar-center-menu menu-responsive">						
-							<ul id="mobilemenu">
-								<li><a href="index.html">Home</a>
-									<ul class="sub-menu">
-																   
-									</ul>
-								</li>
-								<li class="menu-item-has-children"><a href="about.html#">About Us</a>
-									<ul class="sub-menu">
-										<li><a href="about.html">About Us</a></li>
-											<li><a href="about-queen.html">Meet Our CEO</a>
-												<li><a href="team-three.html">Meet Our Team</a>
-												<li><a href="nue-works.html">NUE Community Works</a>
-										</li>	
-									</ul>
-								</li>
-								<li class="menu-item-has-children"><a href="#">Products & Services</a>
-									<ul class="sub-menu">
-										<li><a href="construction-div.html">Construction Division</a></li>
-										<li><a href="energy-div.html">renewable Energy Division</a></li>
-										<li><a href="environment-div.html">Environmental Division</a></li>
-										
-	
-										</ul>
-								</li>
-									<li class="menu-item-has-children"><a href="#">Projects</a>
-									
-										<ul class="sub-menu">
-											<li><a href="project.html">Recent Projects</a></li>
-											<li><a href="past-projects.html">Past Projects</a></li>
-										</ul>
-										
-									</li>
-								<li><a href="blog.html#">Media</a>
-									
-								</li>
-								<!--<li><a href="contact.html#">Contact</a>
+  <body>
+    <!-- Preloader Start -->
+    <div class="theme-loader">
+      <div class="spinner">
+        <div class="spinner-bounce one"></div>
+        <div class="spinner-bounce two"></div>
+        <div class="spinner-bounce three"></div>
+      </div>
+    </div>
+    <!-- Preloader End -->
+    <!-- Dark Light Start -->
+    <div class="switch__tab">
+      <span class="switch__tab-btn active light-mode-title">Light</span>
+      <span class="mode__switch" onclick="darkLight()"><span></span></span>
+      <span class="switch__tab-btn dark-mode-title">Dark</span>
+    </div>
+    <!-- Dark Light End -->
+    <!-- Top Bar Start -->
+    <div class="top__bar">
+      <div class="container custom__container">
+        <div class="row">
+          <div class="col-xl-5 col-md-6">
+            <div class="top__bar-left">
+              <a href="about.html#"
+                ><i class="far fa-map-marker-alt"></i>1449 S. Michigan Ave #304,
+                Chicago, IL 60605</a
+              >
+            </div>
+          </div>
+          <div class="col-xl-7 col-md-6">
+            <div class="top__bar-right">
+              <a href="mailto:Info@naturallyurbanenvironmental.com"
+                ><i class="fas fa-envelope"></i
+                >Info@naturallyurbanenvironmental.com</a
+              >
+              <div class="top__bar-right-social">
+                <ul>
+                  <li>
+                    <a
+                      href="https://web.facebook.com/naturallyurbanenvironmental#"
+                      target="_blank"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/nueinc_green#" target="_blank"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/company/naturally-urban-environmental-inc-n-u-e-inc/#"
+                      target="_blank"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.instagram.com/nueinc_green/#"
+                      target="_blank"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Top Bar End -->
+    <!-- Header Area Start -->
+    <div class="header__area header__sticky">
+      <div class="container custom__container">
+        <div class="header__area-menubar">
+          <div class="header__area-menubar-left">
+            <div class="header__area-menubar-left-logo">
+              <a href="index.html"
+                ><img class="dark-n" src="assets/img/nue-1.png" alt="" /><img
+                  class="light-n"
+                  src="assets/img/nue-1.png"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="header__area-menubar-center">
+            <div class="header__area-menubar-center-menu menu-responsive">
+              <ul id="mobilemenu">
+                <li>
+                  <a href="index.html">Home</a>
+                  <ul class="sub-menu"></ul>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="about.html#">About Us</a>
+                  <ul class="sub-menu">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="about-queen.html">Meet Our CEO</a></li>
+                    <li><a href="team-three.html">Meet Our Team</a></li>
+                    <li><a href="nue-works.html">NUE Community Works</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="#">Products & Services</a>
+                  <ul class="sub-menu">
+                    <li>
+                      <a href="construction-div.html">Construction Division</a>
+                    </li>
+                    <li>
+                      <a href="energy-div.html">renewable Energy Division</a>
+                    </li>
+                    <li>
+                      <a href="environment-div.html">Environmental Division</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="#">Projects</a>
+
+                  <ul class="sub-menu">
+                    <li><a href="project.html">Recent Projects</a></li>
+                    <li><a href="past-projects.html">Past Projects</a></li>
+                  </ul>
+                </li>
+                <li><a href="blog.html#">Media</a></li>
+                <!--<li><a href="contact.html#">Contact</a>
 									
 								</li>-->
-							</ul>
-						</div>
-					</div>
-					<div class="header__area-menubar-right">
-						<div class="header__area-menubar-right-box">
-							<div class="header__area-menubar-right-box-search">
-								<div class="search">	
-									<span class="header__area-menubar-right-box-search-icon open"><i class="fal fa-search"></i></span>
-								</div>
-								<div class="header__area-menubar-right-box-search-box">
-									<form>
-										<input type="search" placeholder="Search Here.....">
-										<button type="submit"><i class="fal fa-search"></i>
-										</button>
-									</form> <span class="header__area-menubar-right-box-search-box-icon"><i class="fal fa-times"></i></span>
-								</div>
-							</div>
-							<div class="header__area-menubar-right-sidebar">
-								<div class="header__area-menubar-right-sidebar-popup-icon"><img src="assets/img/icon/menu1.png" alt=""></div>
-							</div>
-							<div class="header__area-menubar-right-box-btn">
-								<a class="btn-one" href="request-quote.html">Book Appointment<i class="far fa-chevron-double-right"></i></a>
-							</div>
-							<!-- sidebar Menu Start -->
-							<div class="header__area-menubar-right-sidebar-popup">
-								<div class="sidebar-close-btn"><i class="fal fa-times"></i></div>
-								<div class="header__area-menubar-right-sidebar-popup-logo">
-									<a href="index.html"> <img src="assets/img/nue-1.png" alt=""> </a>
-								</div>
-								<p>Naturally Urban Environmental Inc is a for profit  "Green- Enterprise" and Project Development Firm, providing  sustainable real estate project management and environmental consulting services.</p>
-								<div class="header__area-menubar-right-box-sidebar-popup-contact">
-									<h4 class="mb-30">Get In Touch</h4>
-									<div class="header__area-menubar-right-box-sidebar-popup-contact-item">
-										<div class="header__area-menubar-right-box-sidebar-popup-contact-item-icon">
-											<i class="fal fa-phone-alt icon-animation"></i>
-										</div>
-										<div class="header__area-menubar-right-box-sidebar-popup-contact-item-content">
-											<span>Call Now</span>
-											<h6><a href="tel:708-529-8762">708-529-8762</a></h6>
-										</div>
-									</div>
-									<div class="header__area-menubar-right-box-sidebar-popup-contact-item">
-										<div class="header__area-menubar-right-box-sidebar-popup-contact-item-icon">
-											<i class="fal fa-envelope"></i>
-										</div>
-										<div class="header__area-menubar-right-box-sidebar-popup-contact-item-content">
-											<span>Quick Email</span>
-											<h6><a href="mailto:Info@naturallyurbanenvironmental.com">info@naturallyurbanenvironmental.com</a></h6>
-										</div>
-									</div>
-									<div class="header__area-menubar-right-box-sidebar-popup-contact-item">
-										<div class="header__area-menubar-right-box-sidebar-popup-contact-item-icon">
-											<i class="fal fa-map-marker-alt"></i>
-										</div>
-										<div class="header__area-menubar-right-box-sidebar-popup-contact-item-content">
-											<span>Office Address</span>
-											<h6><a href="https://www.google.com/maps/place/1449+S+Michigan+Ave+%23304,+Chicago,+IL+60605,+USA/@41.8626846,-87.6261627,17z/data=!3m1!4b1!4m5!3m4!1s0x880e2c847f627239:0x51dbe87c2ec0d740!8m2!3d41.8626846!4d-87.6235878?entry=ttu#" target="_blank">
-												1449 S. Michigan Ave #304, Chicago, IL 60605</a></h6>
-										</div>
-									</div>
-								</div>
-								<div class="header__area-menubar-right-box-sidebar-popup-social">
-									<ul>
-										<li><a href="https://web.facebook.com/naturallyurbanenvironmental#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-										<li><a href="https://twitter.com/nueinc_green#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="https://www.linkedin.com/company/naturally-urban-environmental-inc-n-u-e-inc/#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-										<li><a href="https://www.instagram.com/nueinc_green/#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-									</ul>							
-								</div>
-							</div>
-							<div class="sidebar-overlay"></div>
-							<!-- sidebar Menu Start -->
-						</div>
-						<div class="responsive-menu"></div>
-					</div>
-				</div>
-			</div>
-		</div>      
-		<!-- Header Area End -->		
-	<!-- Page Banner Area Start -->
-    <div class="page__banner" data-background="assets/img/pages/page-banner.jpg">
-		<div class="container">
-			<div class="row">
-				<div class="col-xl-12">
-					<div class="page__banner-content">
-                        <span>Single</span>
-						<ul>
-							<li><a href="index.html">Home</a><span>|</span></li>
-							<li>Project Single</li>
-						</ul>
-						<h1>Project Single</h1>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>    
-	<!-- Page Banner Area End -->
-	<!-- Project Details Area Start -->
-    <div class="project__details section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="project__details-area">
-                        <div class="project__details-area-image dark__image">
-                            <img src="assets/img/portfolio/project-details.jpg" alt="">
-                        </div>
-                        <div class="project__details-area-meta">
-                            <div class="project__details-area-meta-item">
-                                <h6>Date :<span>29 December, 2022</span></h6>
-                            </div>
-                            <div class="project__details-area-meta-item">
-                                <h6>Category :<span>Business Consulting</span></h6>
-                            </div>
-                            <div class="project__details-area-meta-item">
-                                <h6>Customer :<span>ThemeOri</span></h6>
-                            </div>
-                            <div class="project__details-area-meta-item">
-                                <h6>Locations :<span>Preston Rd. Inglewood,</span></h6>
-                            </div>
-                        </div>
-                        <h2 class="mb-30">We offer consulting to both small and large companies</h2>
-                        <p class="mb-25">Pellentesque sit amet justo consectetur, aliquam erat nec, interdum neque. Aliquam eget lacinia massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean tempor, lectus quis dictum posuere, mauris nisl pellentesque urna, eget sagittis tortor lacus at urna. Quisque rutrum sollicitudin tristique. Nunc imperdiet, enim pulvinar rhoncus gravida, sem nisl efficitur sapien, ac elementum augue metus quis mi. Curabitur aliquam est ut sapien laoreet, vel dictum erat rhoncus. Sed at ex odio.</p>
-                        <p>Fusce ornare mauris arcu, eget placerat erat porttitor at. Cras non justo consectetur, tempus lectus a, tempor arcu. Proin luctus sagittis augue, vitae aliquet felis dignissim nec. Nam eget nunc auctor, condimentum odio id, facilisis libero. Cras pellentesque risus in est dignissim eleifend. Ut accumsan urna sed dictum faucibus. Integer condimentum vulputate sapien, id posuere eros tincidunt in</p>
-                        <div class="row mt-35 mb-40 dark__image">
-                            <div class="col-sm-4 sm-mb-30">
-                                <img class="img__full" src="assets/img/portfolio/project-details-1.jpg" alt="">
-                            </div>
-                            <div class="col-sm-4 sm-mb-30">
-                                <img class="img__full" src="assets/img/portfolio/project-details-2.jpg" alt="">
-                            </div>
-                            <div class="col-sm-4">
-                                <img class="img__full" src="assets/img/portfolio/project-details-3.jpg" alt="">
-                            </div>
-                        </div>
-                        <h3 class="mb-30">The Challenge</h3>
-                        <p class="mb-35">Pellentesque eget dui tellus. Donec semper tincidunt egestas. Vivamus lectus ipsum, tempor quis mattis in, ornare ut tortor. Praesent condimentum eu turpis ut hendrerit. Sed sed nunc ullamcorper, hendrerit nunc a, vestibulum urna. Fusce vel blandit erat. Nulla vestibulum faucibus neque eget ornare. Nam lobortis tincidunt semper</p>
-                        <div class="project__details-area-list">
-                            <span><i class="far fa-check"></i>It's essential to work with business consultants who have</span>
-                            <span><i class="far fa-check"></i>Business consultants may charge by the project or hour, or you may need to pay daily or monthly retainers.</span>
-                            <span><i class="far fa-check"></i>Meet with the board of directors and employees.</span>
-                        </div>
-                        <div class="project__details-pagination">
-                            <div class="project__details-pagination-item">
-                                <a href="project-single.html#">
-                                    <div class="project__details-pagination-item-left dark__image">
-                                        <img src="assets/img/portfolio/prev.jpg" alt="">
-                                        <div class="project__details-pagination-item-content">
-                                            <h6>strategy research</h6>
-                                            <span>Case Study</span>
-                                        </div>
-                                    </div>
-                                    <div class="project__details-pagination-item-right">
-                                        <i class="far fa-arrow-right"></i>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="project__details-pagination-item center">
-                                <div class="project__details-pagination-item-icon">
-                                    <img src="assets/img/icon/menu.png" alt="">
-                                </div>
-                            </div>
-                            <div class="project__details-pagination-item">
-                                <a href="project-single.html#">
-                                    <div class="project__details-pagination-item-right">
-                                        <i class="far fa-arrow-left"></i>
-                                    </div>
-                                    <div class="project__details-pagination-item-left dark__image">
-										<div class="project__details-pagination-item-content t-right">
-											<h6>Human Research</h6>
-                                            <span>Case Study</span>
-                                        </div>
-										<img src="assets/img/portfolio/next.jpg" alt="">
-                                    </div>
-                                </a>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
+              </ul>
             </div>
+          </div>
+          <div class="header__area-menubar-right">
+            <div class="header__area-menubar-right-box">
+              <div class="header__area-menubar-right-box-search">
+                <div class="search">
+                  <span class="header__area-menubar-right-box-search-icon open"
+                    ><i class="fal fa-search"></i
+                  ></span>
+                </div>
+                <div class="header__area-menubar-right-box-search-box">
+                  <form>
+                    <input type="search" placeholder="Search Here....." />
+                    <button type="submit"><i class="fal fa-search"></i></button>
+                  </form>
+                  <span class="header__area-menubar-right-box-search-box-icon"
+                    ><i class="fal fa-times"></i
+                  ></span>
+                </div>
+              </div>
+              <div class="header__area-menubar-right-sidebar">
+                <div class="header__area-menubar-right-sidebar-popup-icon">
+                  <img src="assets/img/icon/menu1.png" alt="" />
+                </div>
+              </div>
+              <div class="header__area-menubar-right-box-btn">
+                <a class="btn-one" href="request-quote.html"
+                  >Book Appointment<i class="far fa-chevron-double-right"></i
+                ></a>
+              </div>
+              <!-- sidebar Menu Start -->
+              <div class="header__area-menubar-right-sidebar-popup">
+                <div class="sidebar-close-btn">
+                  <i class="fal fa-times"></i>
+                </div>
+                <div class="header__area-menubar-right-sidebar-popup-logo">
+                  <a href="index.html">
+                    <img src="assets/img/nue-1.png" alt="" />
+                  </a>
+                </div>
+                <p>
+                  Naturally Urban Environmental Inc is a for profit "Green-
+                  Enterprise" and Project Development Firm, providing
+                  sustainable real estate project management and environmental
+                  consulting services.
+                </p>
+                <div
+                  class="header__area-menubar-right-box-sidebar-popup-contact"
+                >
+                  <h4 class="mb-30">Get In Touch</h4>
+                  <div
+                    class="header__area-menubar-right-box-sidebar-popup-contact-item"
+                  >
+                    <div
+                      class="header__area-menubar-right-box-sidebar-popup-contact-item-icon"
+                    >
+                      <i class="fal fa-phone-alt icon-animation"></i>
+                    </div>
+                    <div
+                      class="header__area-menubar-right-box-sidebar-popup-contact-item-content"
+                    >
+                      <span>Call Now</span>
+                      <h6><a href="tel:708-529-8762">708-529-8762</a></h6>
+                    </div>
+                  </div>
+                  <div
+                    class="header__area-menubar-right-box-sidebar-popup-contact-item"
+                  >
+                    <div
+                      class="header__area-menubar-right-box-sidebar-popup-contact-item-icon"
+                    >
+                      <i class="fal fa-envelope"></i>
+                    </div>
+                    <div
+                      class="header__area-menubar-right-box-sidebar-popup-contact-item-content"
+                    >
+                      <span>Quick Email</span>
+                      <h6>
+                        <a href="mailto:Info@naturallyurbanenvironmental.com"
+                          >info@naturallyurbanenvironmental.com</a
+                        >
+                      </h6>
+                    </div>
+                  </div>
+                  <div
+                    class="header__area-menubar-right-box-sidebar-popup-contact-item"
+                  >
+                    <div
+                      class="header__area-menubar-right-box-sidebar-popup-contact-item-icon"
+                    >
+                      <i class="fal fa-map-marker-alt"></i>
+                    </div>
+                    <div
+                      class="header__area-menubar-right-box-sidebar-popup-contact-item-content"
+                    >
+                      <span>Office Address</span>
+                      <h6>
+                        <a
+                          href="https://www.google.com/maps/place/1449+S+Michigan+Ave+%23304,+Chicago,+IL+60605,+USA/@41.8626846,-87.6261627,17z/data=!3m1!4b1!4m5!3m4!1s0x880e2c847f627239:0x51dbe87c2ec0d740!8m2!3d41.8626846!4d-87.6235878?entry=ttu#"
+                          target="_blank"
+                        >
+                          1449 S. Michigan Ave #304, Chicago, IL 60605</a
+                        >
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="header__area-menubar-right-box-sidebar-popup-social"
+                >
+                  <ul>
+                    <li>
+                      <a
+                        href="https://web.facebook.com/naturallyurbanenvironmental#"
+                        target="_blank"
+                        ><i class="fab fa-facebook-f"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://twitter.com/nueinc_green#"
+                        target="_blank"
+                        ><i class="fab fa-twitter"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/company/naturally-urban-environmental-inc-n-u-e-inc/#"
+                        target="_blank"
+                        ><i class="fab fa-linkedin"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/nueinc_green/#"
+                        target="_blank"
+                        ><i class="fab fa-instagram"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="sidebar-overlay"></div>
+              <!-- sidebar Menu Start -->
+            </div>
+            <div class="responsive-menu"></div>
+          </div>
         </div>
+      </div>
     </div>
-	<!-- Project Details Area End -->
-	
-		<!-- Footer Top Area Start -->
-		<div class="footer__top">
-			<img class="footer__top-shape" src="assets/img/shape/footer.png" alt="">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-xl-7 col-lg-8 lg-mb-30">
-						<div class="footer__top-title lg-t-center">
-							<h2>Sustainable Service You can Trust</h2>
-						</div>
-					</div>
-					<div class="col-xl-5 col-lg-4">
-						<div class="footer__top-btn t-right lg-t-center">
-							<a class="btn-two" href="request-quote.html">Work with us<i class="far fa-chevron-double-right"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Footer Top Area End -->
-		<!-- Footer One Area Start -->
-		<div class="footer__one">
-			<img class="footer__one-shape" src="assets/img/shape/footer-bg.png" alt="">
-			<div class="container">
-				<div class="row">
-					<div class="col-xl-3 col-md-6 col-sm-7 xl-mb-30">
-						<div class="footer__one-widget">
-							<div class="footer__one-widget-about">
-								<a href="index.html#"><img src="assets/img/nue-1.png" alt=""></a>
-								<p>Environmental Sustainable Solutions In Construction And Energy</p>
-								<div class="footer__one-widget-about-social">
-									<ul>
-										<li><a href="https://web.facebook.com/naturallyurbanenvironmental#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-										<li><a href="https://twitter.com/nueinc_green#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="https://www.linkedin.com/company/naturally-urban-environmental-inc-n-u-e-inc/#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-										<li><a href="https://www.instagram.com/nueinc_green/#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 col-md-6 col-sm-5 sm-mb-30">
-						<div class="footer__one-widget border-one">
-							<h4>Our Solution</h4>
-							<div class="footer__one-widget-solution">
-								<ul>
-									<li><a href="construction-div.html"><i class="far fa-chevron-double-right"></i>Construction Service Division</a></li>
-										<li><a href="environment-div.html"><i class="far fa-chevron-double-right"></i>Environmental Service Division</a></li>
-										<li><a href="energy-div.html"><i class="far fa-chevron-double-right"></i>Renewable Energy Service Division</a></li>
-										
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 col-md-6 col-sm-6 sm-mb-30">
-						<div class="footer__one-widget border-one">
-							<h4>Head Office</h4>
-							<div class="footer__one-widget-location">
-								<div class="footer__one-widget-location-item">
-									<div class="footer__one-widget-location-item-icon">
-										<i class="far fa-map-marker-alt"></i>
-									</div>
-									<div class="footer__one-widget-location-item-info">
-										<a href="https://www.google.com/maps/place/1449+S+Michigan+Ave+%23304,+Chicago,+IL+60605,+USA/@41.8626846,-87.6261627,17z/data=!3m1!4b1!4m5!3m4!1s0x880e2c847f627239:0x51dbe87c2ec0d740!8m2!3d41.8626846!4d-87.6235878?entry=ttu#" target="_blank">1449 S. Michigan Ave #304, Chicago, IL 60605</a>
-									</div>
-								</div>
-								
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 col-md-6 col-sm-6">
-						<div class="footer__one-widget border-one tow">
-							<h4>Subscribe</h4>
-							<div class="footer__one-widget-subscribe">
-								<p>Join <span>Naturally Urban Environmental Inc</span> Newsletter Channel</p>
-								<form action="index.html#">
-									<input type="text" name="email" placeholder="Email Address" required="">
-									<button type="submit"><i class="fas fa-paper-plane"></i></button>
-								 </form>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="copyright__one">
-				<div class="container">
-					<div class="row">
-						<div class="col-xl-12">
-							<p>Copyright 2023  <a href="https://www.linkedin.com/in/johnagbaeze">NUE INC.</a> - All Rights Reserved By <a href="https://johnagbaeze.com" target="_blank">Agbaeze John</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Footer One Area End -->
-	<!-- Scroll Btn Start -->
-	<div class="scroll-up">
-		<svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102"><path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" /> </svg>
-	</div>
-	<!-- Scroll Btn End -->
-	<!-- Main JS -->
-	<script src="assets/js/jquery-3.6.0.min.js"></script>
-	<!-- Bootstrap JS -->
-	<script src="assets/js/bootstrap.min.js"></script>
-	<!-- Counter Up JS -->
-	<script src="assets/js/jquery.counterup.min.js"></script>
-	<!-- Popper JS -->
-	<script src="assets/js/popper.min.js"></script>
-	<!-- Progressbar JS -->
-	<script src="assets/js/progressbar.min.js"></script>
-	<!-- Magnific Popup JS -->
-	<script src="assets/js/jquery.magnific-popup.min.js"></script>
-	<!-- Swiper Bundle JS -->
-	<script src="assets/js/swiper-bundle.min.js"></script>
-    <!-- Isotope JS -->
-	<script src="assets/js/isotope.pkgd.min.js"></script>
-	<!-- Waypoints JS -->
-	<script src="assets/js/jquery.waypoints.min.js"></script>
-	<!-- Mean Menu JS -->
-	<script src="assets/js/jquery.meanmenu.min.js"></script>
-	<!-- Custom JS -->
-	<script src="assets/js/custom.js"></script>
-</body>
+    <!-- Header Area End -->
+    <!-- Page Banner Area Start -->
+    <div
+      class="page__banner"
+      data-background="assets/img/pages/page-banner.jpg"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="page__banner-content">
+              <span>Single</span>
+              <ul>
+                <li><a href="index.html">Home</a><span>|</span></li>
+                <li>Project Single</li>
+              </ul>
+              <h1>Project Single</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Page Banner Area End -->
 
+    <!-- Project Gallery Area Start -->
+    <div class="project__details section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="row">
+              <div class="col-lg-12 mb-4">
+                <a class="gallery-item" data-fancybox="gallery" href="./assets/img/Gallery/recent-projects/Library/Before/79E0B030-7462-4778-9B79-729B857386C4.JPG">
+                  <div
+                    class="gallery-image"
+                    style="
+                      background-image: url(./assets/img/Gallery/recent-projects/Library/Before/79E0B030-7462-4778-9B79-729B857386C4.JPG);
+                    "
+                  ></div>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 mb-4">
+                <a class="gallery-item" data-fancybox="gallery" href="./assets/img/Gallery/recent-projects/Library/Before/1718EE4D-29E6-45F7-9290-4A07E2D40F50.JPG">
+                  <div
+                    class="gallery-image"
+                    style="
+                      background-image: url(./assets/img/Gallery/recent-projects/Library/Before/1718EE4D-29E6-45F7-9290-4A07E2D40F50.JPG);
+                    "
+                  ></div>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <a class="gallery-item" data-fancybox="gallery" href="./assets/img/Gallery/recent-projects/Library/Before/3100E7BB-FB3E-4C04-80EA-95C9A01FE2BD.JPG">
+                  <div
+                    class="gallery-image"
+                    style="
+                      background-image: url(./assets/img/Gallery/recent-projects/Library/Before/3100E7BB-FB3E-4C04-80EA-95C9A01FE2BD.JPG);
+                    "
+                  ></div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="row">
+              <div class="col-lg-12">
+                <a class="gallery-item h-x2" data-fancybox="gallery" href="./assets/img/Gallery/recent-projects/Library/Before/6959DE2B-4A44-4D8A-A866-5DE6EAF4C000.JPG">
+                  <div
+                    class="gallery-image"
+                    style="
+                      background-image: url(./assets/img/Gallery/recent-projects/Library/Before/6959DE2B-4A44-4D8A-A866-5DE6EAF4C000.JPG);
+                    "
+                  ></div>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 mt-4">
+                <a class="gallery-item" data-fancybox="gallery" href="./assets/img/Gallery/recent-projects/Library/Before/20561B9C-E73C-4E94-85F7-D5109117FD88.JPG">
+                  <div
+                    class="gallery-image"
+                    style="
+                      background-image: url(./assets/img/Gallery/recent-projects/Library/Before/20561B9C-E73C-4E94-85F7-D5109117FD88.JPG);
+                    "
+                  ></div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-lg-12 mb-4">
+                <a class="gallery-item" data-fancybox="gallery" href="./assets/img/Gallery/recent-projects/Library/Before/A82EFAE0-CCA8-4670-83D3-618687B3E336.JPG">
+                  <div
+                    class="gallery-image"
+                    style="
+                      background-image: url(./assets/img/Gallery/recent-projects/Library/Before/A82EFAE0-CCA8-4670-83D3-618687B3E336.JPG);
+                    "
+                  ></div>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 mb-4">
+                <a class="gallery-item" data-fancybox="gallery" href="./assets/img/Gallery/recent-projects/Library/Before/A5182586-3A10-467D-A5A8-0598BB823397.JPG">
+                  <div
+                    class="gallery-image"
+                    style="
+                      background-image: url(./assets/img/Gallery/recent-projects/Library/Before/A5182586-3A10-467D-A5A8-0598BB823397.JPG);
+                    "
+                  ></div>
+                </a>
+              </div>
+              <div class="col-lg-6 mb-4">
+                <a class="gallery-item" data-fancybox="gallery" href="./assets/img/Gallery/recent-projects/Library/Before/AC2A2A15-2F8E-4552-A3E5-CCD7D1E7A48D.JPG">
+                  <div
+                    class="gallery-image"
+                    style="
+                      background-image: url(./assets/img/Gallery/recent-projects/Library/Before/AC2A2A15-2F8E-4552-A3E5-CCD7D1E7A48D.JPG);
+                    "
+                  ></div>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <a class="gallery-item" data-fancybox="gallery" href="./assets/img/Gallery/recent-projects/Library/Before/B553BFFC-AAFE-4C3A-BA8B-B48C7978F4AE.JPG">
+                  <div
+                    class="gallery-image"
+                    style="
+                      background-image: url(./assets/img/Gallery/recent-projects/Library/Before/B553BFFC-AAFE-4C3A-BA8B-B48C7978F4AE.JPG);
+                    "
+                  ></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Project Gallery Area End -->
+
+    <!-- Footer Top Area Start -->
+    <div class="footer__top">
+      <img class="footer__top-shape" src="assets/img/shape/footer.png" alt="" />
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-xl-7 col-lg-8 lg-mb-30">
+            <div class="footer__top-title lg-t-center">
+              <h2>Sustainable Service You can Trust</h2>
+            </div>
+          </div>
+          <div class="col-xl-5 col-lg-4">
+            <div class="footer__top-btn t-right lg-t-center">
+              <a class="btn-two" href="request-quote.html"
+                >Work with us<i class="far fa-chevron-double-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Top Area End -->
+    <!-- Footer One Area Start -->
+    <div class="footer__one">
+      <img
+        class="footer__one-shape"
+        src="assets/img/shape/footer-bg.png"
+        alt=""
+      />
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-md-6 col-sm-7 xl-mb-30">
+            <div class="footer__one-widget">
+              <div class="footer__one-widget-about">
+                <a href="index.html#"
+                  ><img src="assets/img/nue-1.png" alt=""
+                /></a>
+                <p>
+                  Environmental Sustainable Solutions In Construction And Energy
+                </p>
+                <div class="footer__one-widget-about-social">
+                  <ul>
+                    <li>
+                      <a
+                        href="https://web.facebook.com/naturallyurbanenvironmental#"
+                        target="_blank"
+                        ><i class="fab fa-facebook-f"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://twitter.com/nueinc_green#"
+                        target="_blank"
+                        ><i class="fab fa-twitter"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/company/naturally-urban-environmental-inc-n-u-e-inc/#"
+                        target="_blank"
+                        ><i class="fab fa-linkedin"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/nueinc_green/#"
+                        target="_blank"
+                        ><i class="fab fa-instagram"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 col-sm-5 sm-mb-30">
+            <div class="footer__one-widget border-one">
+              <h4>Our Solution</h4>
+              <div class="footer__one-widget-solution">
+                <ul>
+                  <li>
+                    <a href="construction-div.html"
+                      ><i class="far fa-chevron-double-right"></i>Construction
+                      Service Division</a
+                    >
+                  </li>
+                  <li>
+                    <a href="environment-div.html"
+                      ><i class="far fa-chevron-double-right"></i>Environmental
+                      Service Division</a
+                    >
+                  </li>
+                  <li>
+                    <a href="energy-div.html"
+                      ><i class="far fa-chevron-double-right"></i>Renewable
+                      Energy Service Division</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 col-sm-6 sm-mb-30">
+            <div class="footer__one-widget border-one">
+              <h4>Head Office</h4>
+              <div class="footer__one-widget-location">
+                <div class="footer__one-widget-location-item">
+                  <div class="footer__one-widget-location-item-icon">
+                    <i class="far fa-map-marker-alt"></i>
+                  </div>
+                  <div class="footer__one-widget-location-item-info">
+                    <a
+                      href="https://www.google.com/maps/place/1449+S+Michigan+Ave+%23304,+Chicago,+IL+60605,+USA/@41.8626846,-87.6261627,17z/data=!3m1!4b1!4m5!3m4!1s0x880e2c847f627239:0x51dbe87c2ec0d740!8m2!3d41.8626846!4d-87.6235878?entry=ttu#"
+                      target="_blank"
+                      >1449 S. Michigan Ave #304, Chicago, IL 60605</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 col-sm-6">
+            <div class="footer__one-widget border-one tow">
+              <h4>Subscribe</h4>
+              <div class="footer__one-widget-subscribe">
+                <p>
+                  Join <span>Naturally Urban Environmental Inc</span> Newsletter
+                  Channel
+                </p>
+                <form action="index.html#">
+                  <input
+                    type="text"
+                    name="email"
+                    placeholder="Email Address"
+                    required=""
+                  />
+                  <button type="submit">
+                    <i class="fas fa-paper-plane"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright__one">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+              <p>
+                Copyright 2023
+                <a href="https://www.linkedin.com/in/johnagbaeze">NUE INC.</a> -
+                All Rights Reserved By
+                <a href="https://johnagbaeze.com" target="_blank"
+                  >Agbaeze John</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer One Area End -->
+    <!-- Scroll Btn Start -->
+    <div class="scroll-up">
+      <svg
+        class="scroll-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div>
+    <!-- Scroll Btn End -->
+    <!-- Main JS -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Counter Up JS -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- Popper JS -->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- Progressbar JS -->
+    <script src="assets/js/progressbar.min.js"></script>
+    <!-- Magnific Popup JS -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Swiper Bundle JS -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- Isotope JS -->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- Waypoints JS -->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <!-- Mean Menu JS -->
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js"></script>
+
+	<!-- Gallery Script-->
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+      Fancybox.bind('[data-fancybox="gallery"]', {
+        //
+      });    
+    </script>
+  </body>
 </html>
